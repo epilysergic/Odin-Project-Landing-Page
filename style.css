@@ -1,0 +1,129 @@
+body{
+    display:flex;
+    flex-direction: column;
+    height:100%;
+    width: 100%;
+}
+/* header and footer color */
+.section-one, footer {
+    background-color: #1F2937;
+    color:white;
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+}
+/* applying flex box to header section */
+nav.header, .header-links{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:2rem;
+    list-style-type: none;
+}
+/* editing header required logo style */
+#header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+a {
+    text-decoration: none;
+    color:white; 
+}
+/* maintaining same style for both buttons in landing page */
+button {
+    background-color: #3882F6;
+    width: 5em;
+    font-size: 23px;
+    color: white;
+    border:solid;
+}
+/* editing section-one main content */
+h1#main-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin: 0;
+}
+p#main-paragraph, ul.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+div.section-one-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:2rem;
+}
+#main-title-section , #place-image {
+    flex: 1 1 0;
+}
+div#place-image{
+    height: 188px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    margin-bottom: 10px;
+}
+/* editing section-two */ 
+/* making section-two center in middle and applying flex-box */
+.section-two {
+    display: flex;
+    flex-flow:column wrap;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+ul#sect-two-img {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5rem;
+    list-style-type: none
+}
+h2#sect-two-id {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+/* section-three styling */ 
+
+.section-three {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+h3#quote-body {
+    align-self: flex-start;
+}
+p#quote-author {
+    align-self: flex-end;
+}
+/* section-four */
+.section-four {
+    margin-left:30rem;
+    margin-right: 30rem;
+}
+div#action-call {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    color: white; 
+    border:solid black;
+}
+.left-action, .right-action {
+    margin:2rem;
+}
+    
+/* footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
